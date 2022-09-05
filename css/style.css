@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{  font-family: 'roboto';
+    box-sizing: border-box;
+}
+
+html,
+body{
+   width: auto;
+
+}
+
+body{
+    margin: 0;
+    font-size: sans-sarif;
+    display: flex;
+    flex-direction: column;
+}
+
+.bar{
+    height:30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 15px;
+    background:#D1891C
+    ;
+
+}
+
+header {
+    background-color: #00669F;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: 40px;
+    margin: 0;
+}
+
+
+main{
+flex: auto;
+padding: 80px 100px;
+display: flex;
+flex-wrap: wrap;
+max-width: 1024px;
+gap: 80px;
+align-self: center;
+
+}
+
+.card{
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    padding-top:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:#f3f3f3 ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 16px 0px 0px;
+
+}
+
+.card img{
+border-radius: 100px;
+filter:drop-shadow( 0px 4px 4px rgba(0,0,0,25))
+}
+
+.profile img{
+    width:136px;
+    height:134px;
+}
+
+.card p{
+margin-top: 30px;
+padding: 0 30px;
+}
+
+.card a{
+display: block;
+margin: 100px 23px;
+padding: 16px 30px;
+color: white;
+text-decoration: none;
+background-color:#00669F ;
+}
+
+
+
+.batman{
+background-image: url(../imagens/bg_baman.jpg);
+
+   
+}
+
+.alerquina{
+background-image: url(../imagens/bg_alerquina2.png);
+       
+}
+
+.superman{
+background-image: url(../imagens/bg_superman.png);   
+}
+
+.mulher_maravilha{
+background-image: url(../imagens/bg_maravilha.png);   
+    }
+
+
+
+footer{
+   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+    background-color:#00669F;
+    padding: 16px 24px;
+    color: #FFF9F9;
+   
+}
+
+h3{
+    text-align: center;
+}
+
+.rodape{
+    text-align: right;
+
+}
+
+.rodape img {
+   width:100px;
+ 
+
+
+
+}
+
